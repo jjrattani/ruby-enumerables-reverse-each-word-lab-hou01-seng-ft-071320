@@ -18,10 +18,10 @@ end
   
 #OPTION2
 #def reverse_each_word (sentence)
-  backward = sentence.split(" ")
-  new_array = []
-  backward.each do |new_reverse|
-   new_array << new_reverse.reverse 
-  end
-  return new_array.join(" ")
-end
+  #backward = sentence.split(" ")
+  #new_array = []
+  #backward.each do |new_reverse|
+   #new_array << new_reverse.reverse 
+  #end
+  #return new_array.join(" ")
+#end
