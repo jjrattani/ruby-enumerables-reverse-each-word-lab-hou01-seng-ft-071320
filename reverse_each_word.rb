@@ -16,3 +16,12 @@ end
 #string.split -> converts string to array
 #puts "collect a : #{a.collect {|x| x + 1 }}\n\n"
   
+#OPTION2
+#def reverse_each_word (sentence)
+  backward = sentence.split(" ")
+  new_array = []
+  backward.each do |new_reverse|
+   new_array << new_reverse.reverse 
+  end
+  return new_array.join(" ")
+end
